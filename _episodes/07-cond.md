@@ -161,7 +161,7 @@ import numpy
 {: .language-python}
 
 If you are operating a boat, for carrying passengers of working offshore, you need to know that it will be save to go to sea.
-Ideally you wouldn't want to have passengers transported if the wave height is above 3 metres 
+Ideally you wouldn't want to have passengers transported if the wave height is above 3 metres.
 
 Let's look at our wave data, and find which months we can operate the boats, based on the monthly mean wave-height.
 
