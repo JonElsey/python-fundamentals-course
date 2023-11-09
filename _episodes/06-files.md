@@ -257,6 +257,6 @@ look at summary statistics and aggregate values from tabular data to come to the
 {: .challenge}
  
 Congratulations! We've investigated the wave data and spotted some trends, and identified bad / missing data.
-Now that we understand what is in the model data set, and trust that it is realistic, we can use it to make practical decisions about things like boat operations
+Now that we understand what is in the model data set, and trust that it is realistic, we can use it to make practical decisions about things like boat operations!
 
 {% include links.md %}
