@@ -4,6 +4,7 @@ root: .
 permalink: index.html
 ---
 
+The webpage for the second day can be found [here](https://jonelsey.github.io/python-fundamentals-course-day2).
 The best way to learn how to program is to do something useful,
 so this introduction to Python is built around a common scientific task:
 **data analysis**.
