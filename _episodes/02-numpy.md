@@ -152,7 +152,7 @@ These data correspond to sea wave height. Each row is a monthly average, and the
 > of the data contained in the NumPy array.
 >
 > ~~~
-> print(numpy.dtype(data))
+> print(data.dtype)
 > ~~~
 > {: .language-python}
 >
@@ -168,7 +168,7 @@ These data correspond to sea wave height. Each row is a monthly average, and the
 With the following command, we can see the array's [shape]({{ page.root }}/reference.html#shape):
 
 ~~~
-print(numpy.shape(data))
+print(data.shape)
 ~~~
 {: .language-python}
 
