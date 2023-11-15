@@ -163,7 +163,7 @@ does not.
 > For example, we could represent the products in the shelves of a small grocery shop:
 >
 > ~~~
-> x = [['pepper', 'zucchini', 'onion'],
+> x = [['pepper', 'courgette', 'onion'],
 >      ['cabbage', 'lettuce', 'garlic'],
 >      ['apple', 'pear', 'banana']]
 > ~~~
@@ -185,7 +185,7 @@ does not.
 > {: .language-python}
 >
 > ~~~
-> [['pepper', 'zucchini', 'onion']]
+> [['pepper', 'courgette', 'onion']]
 > ~~~
 > {: .output}
 >
@@ -195,7 +195,7 @@ does not.
 > {: .language-python}
 >
 > ~~~
-> ['pepper', 'zucchini', 'onion']
+> ['pepper', 'courgette', 'onion']
 > ~~~
 > {: .output}
 >
