@@ -523,8 +523,23 @@ Omitting ending index: ['sep', 'oct', 'nov', 'dec']
 > > counts + counts
 > > ~~~
 > > {: .language-python}
+
+
+> > This behaviour is specific to lists - if we were to do the same thing in a NumPy array, we would get something like: 
+
+> > ~~~
+> > counts = nump.array([2, 4, 6, 8, 10])
+> > repeats = counts * 2
+> > print(repeats)
+> > ~~~
+> > {: .language-python}
+> > ~~~
+> > `[4, 8, 12, 16, 20]`
+> > ~~~
+> > {: .output}
 > {: .solution}
 {: .challenge}
+
 
 [hadleywickham-tweet]: https://twitter.com/hadleywickham/status/643381054758363136
 
