@@ -123,7 +123,7 @@ does not.
 > the list value, it will change for both variables!
 >
 > ~~~
-> salsa = ['peppers', 'onions', 'cilantro', 'tomatoes']
+> salsa = ['peppers', 'onions', 'coriander', 'tomatoes']
 > my_salsa = salsa        # <-- my_salsa and salsa point to the *same* list data in memory
 > salsa[0] = 'hot peppers'
 > print('Ingredients in my salsa:', my_salsa)
@@ -131,7 +131,7 @@ does not.
 > {: .language-python}
 >
 > ~~~
-> Ingredients in my salsa: ['hot peppers', 'onions', 'cilantro', 'tomatoes']
+> Ingredients in my salsa: ['hot peppers', 'onions', 'coriander', 'tomatoes']
 > ~~~
 > {: .output}
 >
@@ -139,7 +139,7 @@ does not.
 > must make a copy of the value when you assign it.
 >
 > ~~~
-> salsa = ['peppers', 'onions', 'cilantro', 'tomatoes']
+> salsa = ['peppers', 'onions', 'coriander', 'tomatoes']
 > my_salsa = list(salsa)        # <-- makes a *copy* of the list
 > salsa[0] = 'hot peppers'
 > print('Ingredients in my salsa:', my_salsa)
@@ -147,7 +147,7 @@ does not.
 > {: .language-python}
 >
 > ~~~
-> Ingredients in my salsa: ['peppers', 'onions', 'cilantro', 'tomatoes']
+> Ingredients in my salsa: ['peppers', 'onions', 'coriander', 'tomatoes']
 > ~~~
 > {: .output}
 >
