@@ -152,7 +152,7 @@ These data correspond to sea wave height. Each row is a monthly average, and the
 > of the data contained in the NumPy array.
 >
 > ~~~
-> print(data.dtype)
+> print(numpy.dtype(data))
 > ~~~
 > {: .language-python}
 >
@@ -168,7 +168,7 @@ These data correspond to sea wave height. Each row is a monthly average, and the
 With the following command, we can see the array's [shape]({{ page.root }}/reference.html#shape):
 
 ~~~
-print(data.shape)
+print(numpy.shape(data))
 ~~~
 {: .language-python}
 
@@ -483,7 +483,7 @@ We now have a 2D array of data using, where each row is a year, and each column 
 
 ~~~
 print("The shape of the reshaped data is:")
-print(reshaped_data.shape)
+print(numpy.shape(reshaped_data))
 ~~~
 {: .language-python}
 
@@ -519,8 +519,8 @@ The standard deviation of the reshaped data is: 1.1440155050316319
 > anything within curly brackets is interpreted by python:
 >
 > ~~~
-> name = 'Chris'
-> city = 'Edinburgh'
+> name = 'Jon'
+> city = 'Cardiff'
 > print(f"Hello, My name is {name} and I live in {city}.")
 > ~~~
 > {: .language-python}
